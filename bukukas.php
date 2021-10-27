@@ -3,6 +3,8 @@ $file = fopen('idbukukas.txt','a');
 include 'config.php';
 
 function tutor(){
+system("clear");
+system("figlet Tutorial");
 echo "[$] Jalankan php bukukas.php";
 echo "\n[$] Pilih Get Token Kemudian Login Bukukasmu";
 echo "\n[$] Copy Token";
