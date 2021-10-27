@@ -4,7 +4,7 @@ function classHeader($body){
 $headers = array();
 $headers[] = 'Host: api.beecash.io';
 $headers[] = 'Accept: */*';
-$headers[] = 'X-Token: NzgyNzUyNDpWb3h5b0NhdzhlQXp4QVhUY3Zza3JENHI=';
+$headers[] = 'X-Token: TOKEN MU TARUH DISINI COY';
 $headers[] = 'Accept-Language: id';
 $headers[] = 'X-Client-Platform: android';
 $headers[] = 'X-Client-Version: 0.37.1';
@@ -19,7 +19,7 @@ function classHeaderb($body){
 $headers = array();
 $headers[] = 'Host: api.beecash.io';
 $headers[] = 'Accept: */*';
-$headers[] = 'X-Token: NzgyNzMwOTo1ZGRkYmtURW5UWlVDdjlKMVByY2N2UTY=';
+$headers[] = 'X-Token: TOKEN MU TARUH DISINI COY';
 $headers[] = 'Accept-Language: id';
 $headers[] = 'X-Client-Platform: android';
 $headers[] = 'X-Client-Version: 0.37.1';
