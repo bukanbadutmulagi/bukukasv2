@@ -523,6 +523,6 @@ switch ($x){
 	$ex = briDanang();
 	die;
 case 0:
-$ex = tutor()!
+$ex = tutor();
 die;
 	}
