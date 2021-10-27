@@ -348,8 +348,6 @@ system("pkg install git");
 system("termux-setup-storage");
 system("git clone https://github.com/bukanbadutmulagi/bukukasv2");
 system("cd bukukasv2");
-system("cd bukukasv2");
-system("php bukukas.php);
 } else {
 	die;
 	}
