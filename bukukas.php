@@ -1,7 +1,6 @@
 <?php
 $file = fopen('idbukukas.txt','a');
 include 'config.php';
-system("pkg upgrade && update");
 function getToken($file){
 	system("clear");
 	system("figlet Token");
