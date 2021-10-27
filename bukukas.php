@@ -1,6 +1,20 @@
 <?php
 $file = fopen('idbukukas.txt','a');
 include 'config.php';
+
+function tutor(){
+echo "[$] Jalankan php bukukas.php";
+echo "\n[$] Pilih Get Token Kemudian Login Bukukasmu";
+echo "\n[$] Copy Token";
+echo "\n[$] Edit file config.php";
+echo "\n[$] Ketik nano config.php";
+echo "\n[$] Tempel Dibagian Token";
+echo "\n[$] CTRL + X";
+echo "\n[$] Ketik Y dan Save";
+echo "\n[$] Jalankan ulang php bukukas.php";
+}
+
+
 function getToken($file){
 	system("clear");
 	system("figlet Token");
@@ -456,6 +470,7 @@ $nb = $json["data"]["updateMembershipBank"]["bank"]["name"];
 
 system("clear");
 system("figlet         MENU");
+echo "\n[00] Langkah Langkah Jalanin Tools";
 echo "\n[01] GetLink Payment [Minimal 25k]";
 echo "\n[02] Topup Dana Virtual Account";
 echo "\n[03] BRI to SINARMAS";
@@ -507,4 +522,7 @@ switch ($x){
 	case 10:
 	$ex = briDanang();
 	die;
+case 0:
+$ex = tutor()!
+die;
 	}
