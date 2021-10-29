@@ -90,7 +90,6 @@ function getLink(){
          | (_| |  __/ |_| |___| | | | |   <
           \__, |\___|\__|_____|_|_| |_|_|\_\
           |___/";
-          echo "                     dananfff";
  echo "\n\n";
 getLink:
 echo "[?] Masukan Nominal : ";
